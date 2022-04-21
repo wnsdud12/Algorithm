@@ -43,6 +43,8 @@
 		BB6EECE328112A5B001F77A4 /* 2525.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2525.swift; sourceTree = "<group>"; };
 		BB6EECE528112CE9001F77A4 /* 2480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2480.swift; sourceTree = "<group>"; };
 		BB6EECE7281130BB001F77A4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BB6EECE928113611001F77A4 /* 2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2739.swift; sourceTree = "<group>"; };
+		BB6EECED28114310001F77A4 /* 10950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10950.swift; sourceTree = "<group>"; };
 		BBF2EC602810F8220092E709 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF2EC632810F8220092E709 /* 1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1000.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,8 @@
 				BB6EECE328112A5B001F77A4 /* 2525.swift */,
 				BB6EECE528112CE9001F77A4 /* 2480.swift */,
 				BB6EECE7281130BB001F77A4 /* main.swift */,
+				BB6EECE928113611001F77A4 /* 2739.swift */,
+				BB6EECED28114310001F77A4 /* 10950.swift */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
