@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB15A9AA2823ADF200D451A1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB15A9A92823ADF200D451A1 /* main.swift */; };
+		BB15A9AA2823ADF200D451A1 /* 2775.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB15A9A92823ADF200D451A1 /* 2775.swift */; };
+		BB668878282411E200D54DD8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB668877282411E200D54DD8 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,7 +59,8 @@
 		BB15A9A32821075800D451A1 /* 1193.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1193.swift; sourceTree = "<group>"; };
 		BB15A9A52821162300D451A1 /* 2869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2869.swift; sourceTree = "<group>"; };
 		BB15A9A72823A26400D451A1 /* 10250.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10250.swift; sourceTree = "<group>"; };
-		BB15A9A92823ADF200D451A1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BB15A9A92823ADF200D451A1 /* 2775.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2775.swift; sourceTree = "<group>"; };
+		BB668877282411E200D54DD8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BB6EECC128110AB3001F77A4 /* 1001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1001.swift; sourceTree = "<group>"; };
 		BB6EECC328110BCE001F77A4 /* 2557.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2557.swift; sourceTree = "<group>"; };
 		BB6EECC528110E8F001F77A4 /* 10718.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10718.swift; sourceTree = "<group>"; };
@@ -157,7 +159,8 @@
 				BB15A9A32821075800D451A1 /* 1193.swift */,
 				BB15A9A52821162300D451A1 /* 2869.swift */,
 				BB15A9A72823A26400D451A1 /* 10250.swift */,
-				BB15A9A92823ADF200D451A1 /* main.swift */,
+				BB15A9A92823ADF200D451A1 /* 2775.swift */,
+				BB668877282411E200D54DD8 /* main.swift */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -245,7 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB15A9AA2823ADF200D451A1 /* main.swift in Sources */,
+				BB668878282411E200D54DD8 /* main.swift in Sources */,
+				BB15A9AA2823ADF200D451A1 /* 2775.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
