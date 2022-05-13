@@ -8,7 +8,7 @@ for _ in 0 ..< i {
     arr.append(Int(readLine()!)!)
 }
 
-// 버블 정렬
+// 버블 정렬(bubble sort)
 func bubbleSort(_ arr: [Int]) -> [Int] {
     var sorted = arr
     for i in stride(from: sorted.count - 1, to: 0, by: -1) {
@@ -20,7 +20,7 @@ func bubbleSort(_ arr: [Int]) -> [Int] {
     }
     return sorted
 }
-// 삽입 정렬
+// 삽입 정렬(insertion sort)
 func insertionSort(_ arr: [Int]) -> [Int] {
     var sorted = arr
     var index = 1
