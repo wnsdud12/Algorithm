@@ -5,15 +5,13 @@
  */
 
 import Foundation
-var i = Int(readLine()!)!
-//var arr: [Int] = []
-//for _ in 0 ..< i {
-//    arr.append(Int(readLine()!)!)
-//}
+let fIO = FileIO()
+var i = fIO.readInt()
+
 var heap: [Int?] = [nil]
 for _ in 0 ..< i {
     // 여기서 데이터가 들어올 때마다 힙생성
-    heap.append(Int(readLine()!)!)
+    heap.append(fIO.readInt())
 }
 heapify(heap.count)
 var sorted: [Int] = Array(repeating: 0, count: heap.count)
@@ -95,9 +93,8 @@ func heapSort() {
 }
 
 // 정렬된 배열 출력
-for i in heap {
-    if i != nil {
-        print(i!)
-    }
+var str = ""
+for i in 1 ..< heap.count {
+    str += "\(i)\n"
 }
-
+print(str)
