@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB60CCDA282E681A00475317 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60CCD9282E681A00475317 /* FileIO.swift */; };
-		BBBF6E6E28323DFE0009FAB9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF6E6D28323DFE0009FAB9 /* main.swift */; };
+		BBBF6E8128339B5A0009FAB9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF6E7F28339B260009FAB9 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -122,7 +122,16 @@
 		BBBF6E672832379D0009FAB9 /* 10816.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10816.swift; sourceTree = "<group>"; };
 		BBBF6E6928323C0D0009FAB9 /* 1764.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1764.swift; sourceTree = "<group>"; };
 		BBBF6E6B28323CF90009FAB9 /* 1269.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1269.swift; sourceTree = "<group>"; };
-		BBBF6E6D28323DFE0009FAB9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BBBF6E6D28323DFE0009FAB9 /* 11478_timeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11478_timeout.swift; sourceTree = "<group>"; };
+		BBBF6E6F283326070009FAB9 /* 3034.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3034.swift; sourceTree = "<group>"; };
+		BBBF6E71283327B30009FAB9 /* 2477.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2477.swift; sourceTree = "<group>"; };
+		BBBF6E73283374F00009FAB9 /* 1004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1004.swift; sourceTree = "<group>"; };
+		BBBF6E752833812F0009FAB9 /* 1358.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1358.swift; sourceTree = "<group>"; };
+		BBBF6E77283388A10009FAB9 /* 5086.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5086.swift; sourceTree = "<group>"; };
+		BBBF6E79283389C70009FAB9 /* 1037.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1037.swift; sourceTree = "<group>"; };
+		BBBF6E7B283390F80009FAB9 /* 2609.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2609.swift; sourceTree = "<group>"; };
+		BBBF6E7D283398260009FAB9 /* 1934.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1934.swift; sourceTree = "<group>"; };
+		BBBF6E7F28339B260009FAB9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BBF2EC602810F8220092E709 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF2EC632810F8220092E709 /* 1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1000.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -240,7 +249,16 @@
 				BBBF6E672832379D0009FAB9 /* 10816.swift */,
 				BBBF6E6928323C0D0009FAB9 /* 1764.swift */,
 				BBBF6E6B28323CF90009FAB9 /* 1269.swift */,
-				BBBF6E6D28323DFE0009FAB9 /* main.swift */,
+				BBBF6E6D28323DFE0009FAB9 /* 11478_timeout.swift */,
+				BBBF6E6F283326070009FAB9 /* 3034.swift */,
+				BBBF6E71283327B30009FAB9 /* 2477.swift */,
+				BBBF6E73283374F00009FAB9 /* 1004.swift */,
+				BBBF6E752833812F0009FAB9 /* 1358.swift */,
+				BBBF6E77283388A10009FAB9 /* 5086.swift */,
+				BBBF6E79283389C70009FAB9 /* 1037.swift */,
+				BBBF6E7B283390F80009FAB9 /* 2609.swift */,
+				BBBF6E7D283398260009FAB9 /* 1934.swift */,
+				BBBF6E7F28339B260009FAB9 /* main.swift */,
 			);
 			path = BAEKJOON;
 			sourceTree = "<group>";
@@ -328,8 +346,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBF6E8128339B5A0009FAB9 /* main.swift in Sources */,
 				BB60CCDA282E681A00475317 /* FileIO.swift in Sources */,
-				BBBF6E6E28323DFE0009FAB9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
